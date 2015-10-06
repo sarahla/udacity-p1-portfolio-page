@@ -41,11 +41,9 @@ module.exports = function(grunt) {
             ]
       },
       options: {
-          watchTask: true,
-          /*server: {
+          server: {
               baseDir: "./"
-          }*/
-          proxy: 'localhost:8888'
+          }
       }
     }
   });
