@@ -38,3 +38,54 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+#main-header{
+	border-bottom: 2px solid #ddd;
+	padding: rem-calc(30) 0 rem-calc(15) 0;
+	margin-bottom: rem-calc(30);
+}
+
+.brackets{
+	text-transform: uppercase;
+	&:before, &:after{
+		font-family: "Rock Salt";
+	}
+	&:before{
+		content: "{ ";
+	}
+	&:after{
+		content: " }";
+	}
+}
+
+#name{
+	text-align: right;
+	h1{
+		font-family: "Rock Salt";
+	}
+	small{
+		font-family: "Lato";
+		@extend .brackets;
+	}
+}
+
+#portfolio{
+	padding: rem-calc(30) 0;
+
+	h3{
+		@extend .brackets;
+		text-align: center;
+		margin-bottom: rem-calc(30);
+	}
+
+	ul{
+
+		li{
+			text-align: center;
+
+			h4{
+				margin-top: rem-calc(15);
+			}
+		}
+	}
+}
