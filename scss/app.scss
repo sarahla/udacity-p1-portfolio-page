@@ -39,10 +39,23 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+h2, h3, h4, h5{
+	color: #fff;
+}
+
+
+body{
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #0f0c2a;
+}
+
+
 #main-header{
-	border-bottom: 2px solid #ddd;
 	padding: rem-calc(30) 0 rem-calc(15) 0;
 	margin-bottom: rem-calc(30);
+	position: relative;
 }
 
 .brackets{
@@ -62,10 +75,12 @@
 	text-align: right;
 	h1{
 		font-family: "Rock Salt";
+		color: #0f0c2a;
 	}
 	small{
 		font-family: "Lato";
 		@extend .brackets;
+		color: #fff;
 	}
 }
 
