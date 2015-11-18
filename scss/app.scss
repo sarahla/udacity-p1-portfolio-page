@@ -45,10 +45,11 @@ h2, h3, h4, h5{
 
 
 body{
-	background-image: url('../img/background.jpg');
+	background-image: url('../img/chalkboard.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-color: #0f0c2a;
+	//background-color: #0f0c2a;
+	background-color: #000;
 }
 
 
@@ -75,7 +76,7 @@ body{
 	text-align: right;
 	h1{
 		font-family: "Rock Salt";
-		color: #0f0c2a;
+		color: #fff;
 	}
 	small{
 		font-family: "Lato";
